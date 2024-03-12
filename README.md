@@ -1,0 +1,1 @@
+# @ka-nabellinc/prettier-config
