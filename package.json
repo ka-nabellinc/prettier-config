@@ -5,6 +5,6 @@
   "author": "andoshin11 <shinglish11@gmail.com>",
   "license": "MIT",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "access": "public"
   }
 }
