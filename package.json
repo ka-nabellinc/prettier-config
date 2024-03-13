@@ -1,0 +1,10 @@
+{
+  "name": "@ka-nabellinc/prettier-config",
+  "version": "0.0.1",
+  "main": "index.json",
+  "author": "Kentaro Okutani <k-okutani@tos-works.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
