@@ -27,7 +27,7 @@ jobs:
         run: yarn install --pure-lockfile --production=false
       - name: Update Tag
         run: |
-          git remote set-url origin https://github-actions:${{secrets.GITHUB_TOKEN}}@github.com/$GITHUB_REPOSITORY
+          git remote set-url origin https://github-actions:${{secrets.ORGANIZATION_TOKEN}}@github.com/$GITHUB_REPOSITORY
           git config --global user.name "$GITHUB_ACTOR"
           git config --global user.email "$GITHUB_ACTOR@users.noreply.github.com"
           npm version ${{ github.event.inputs.release_version }}
