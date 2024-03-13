@@ -2,7 +2,7 @@
   "name": "@ka-nabellinc/prettier-config",
   "version": "0.0.1",
   "main": "index.json",
-  "author": "andoshin11 <shinglish11@gmail.com>",
+  "author": "Kentaro Okutani <k-okutani@tos-works.com>",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
